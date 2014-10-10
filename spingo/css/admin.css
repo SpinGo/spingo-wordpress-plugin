@@ -1,0 +1,42 @@
+#insert-calendar-button .wp-calendar-buttons-icon {
+	background-image: url(../imgs/logo-icon.png);
+	display: inline-block;
+	vertical-align: text-top;
+	margin: 1px 2px 0 2px;
+	width: 18px;
+	height: 18px;
+}
+
+body .sg-list-widget-wrapper {
+	min-width: inherit;
+}
+
+.spingo-split {
+	display: inline-block;
+	width: 50%;
+}
+
+.spingo-split input[type=text] {
+	width: 95%;
+}
+
+.spingo-split .options {
+	padding: 4px 0;
+	display: block;
+}
+
+.spingo-split .options label {
+	display: inline;
+}
+
+.spingo-split .options input {
+	margin-left: 7px;
+}
+
+.spingo-split .options input:first-child {
+	margin-left: 0;
+}
+
+.widget-inside form label {
+	display: block;
+}

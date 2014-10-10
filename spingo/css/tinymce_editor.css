@@ -1,0 +1,43 @@
+#spingo-calendar-toolbar,
+#spingo-calendar-toolbar * {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#spingo-calendar-toolbar {
+	position: absolute;
+	margin: 0;
+}
+
+#spingo-calendar-toolbar i {
+	margin-top: 7px;
+	margin-left: 7px;
+	padding: 2px;
+	width: 30px;
+	height: 30px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	background-color: #000;
+	background-color: rgba(0,0,0,0.9);
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
+}
+
+.ie8 #spingo-calendar-toolbar i,
+.ie7 #spingo-calendar-toolbar i {
+	display: inline;
+	padding: 0;
+}
+
+.spingo-calendar-box {
+	display: block;
+	background: url(/wp-content/plugins/spingo/imgs/calendar-embed.png) no-repeat center center;
+	height: 192px;
+	width: 100%;
+	min-width: 323px;
+	border: 1px dashed #CCCCCC;
+	text-align: center;
+	cursor: move;
+}
